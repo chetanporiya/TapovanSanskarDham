@@ -5,11 +5,18 @@ Main page styles
 .hipster {
     display: inline-block;
     width: 347px;
-    height: 497px;
+    height: 350px;
     background: url('../../content/images/hipster.png') no-repeat center top;
     background-size: contain;
 }
-
+.tapovan-logo {
+    display: inline-block;
+    width: 190px;
+    height: 170px;
+    background: url('../../content/images/tapovan-logo.jpg') no-repeat center top;
+    background-size: contain;
+    float:right;
+}
 /* wait autoprefixer update to allow simple generation of high pixel density media query */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (-moz-min-device-pixel-ratio: 2),
@@ -17,7 +24,30 @@ Main page styles
     only screen and (min-resolution: 192dpi),
     only screen and (min-resolution: 2dppx) {
     .hipster {
-        background: url('../../content/images/hipster2x.png') no-repeat center top;
+        background: url('../../content/images/hipster.png') no-repeat center top;
         background-size: contain;
     }
+}
+
+.hostel {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background: url('../../content/images/Hostel.png') no-repeat center top;
+    background-size: contain;
+}
+
+.school {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background: url('../../content/images/Hostel.png') no-repeat center top;
+    background-size: contain;
+}
+.madhyast {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background: url('../../content/images/Hostel.png') no-repeat center top;
+    background-size: contain;
 }
